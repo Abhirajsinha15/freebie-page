@@ -1,0 +1,407 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+html{
+    font-family: 'Roboto', sans-serif;
+}
+
+
+h2, h3, h4{   
+    font-weight: 600;
+}
+
+
+.try-bttn{
+    border-radius: 20px;
+}
+
+.hero {
+    padding: 50px 0;
+    background:url(../images/buldings\.png)
+}
+
+
+.editor-choice{
+    background: #D8F9F1;
+    border-radius: 20px;
+}
+
+section.trusted-companies {
+    padding: 0 0 50px;
+}
+
+.features ul li img{
+    width: 100%;
+}
+
+section.features-footer {
+    padding: 28px 0;
+}
+
+
+section.smart-jackport-methods {
+    padding: 80px 0;
+}
+
+
+
+ .item {
+    height: 3.75rem;
+    width: 60px;
+    background:#FAD3CE;
+    border-radius: 50%;
+    display: inline-block;
+    margin-bottom: 15px;
+}
+
+.smart-jackport-methods h5{
+    color: #FAD3CE;
+}
+
+
+
+section.latest-integration {
+    padding: 50px 0;
+}
+
+.choosing-app {
+    padding: 40px 0;
+}
+
+
+.ultimate-features{
+    padding: 40px 0;
+}
+
+footer{
+    background: #09142e;
+    padding: 50px 0;
+}
+
+footer ul li{
+    display: inline;
+    margin: 0 10px;
+}
+
+
+@media screen and (min-width:768px) {
+
+    .hero img{
+        margin: 0;
+    }
+
+    .features .col-lg-6 img{
+        margin: 80px 0;
+    }
+
+    .features .col-lg-6 figure img{
+        margin: 5px;
+    }
+
+    .smart-jackport-methods .col-lg-4:nth-of-type(3n-1) .card{
+        margin: 40px 0;
+    }
+
+
+    @media screen and (min-width:960px) {
+
+        .smart-jackport-methods .col-lg-4:nth-of-type(3n-1) .card{
+            margin: 0;
+        }
+
+        
+    }
+
+    /* .companies ul li:last-child{
+        margin: 0;
+    }
+
+    .app-features .content-wrapper{
+        background: transparent
+    }
+
+    .features .left-content img{
+        margin: 70px 50px;
+        width: 100%;
+    }
+
+
+    section.features-footer .content-wrapper{
+        background: transparent;
+        border-right: 0;
+        border-bottom:0 ;
+    }
+
+    .smart-jackport-left{
+        width: 50%;
+        padding: 10px 40px;
+        border-right: 1px solid;
+    }
+
+    .smart-jackport h3{
+        font-size: 30px;
+    }
+
+    .smart-jackport-right{
+        width: 50%;
+        padding: 0 20px;
+    }
+
+    .methods{
+        flex-direction: row;
+    }
+
+    .latest-integration .content{
+        flex-direction: row;
+    }
+
+    section.latest-integration img{
+        width: 75%;
+    }
+
+    section.choosing-app .content-wrapper{
+        flex-direction: column;
+    }
+
+    .content-head p{
+        width: 47%;
+    }
+
+    .choosing-app .item{
+        width: 33%;
+    }
+
+    .choose-methods{
+        flex-direction: row;
+    }
+
+    .choose-methods p{
+        width: 100%;
+    }
+
+    .ultimate-features .content-wrapper{
+        background: transparent;
+    }
+
+    .ultimate-features .left-content{
+        width: 50%;
+    }
+
+    .ultimate-features .right-content{
+        width: 49%;
+    }
+
+    .ultimate-features .item{
+        width: 40%;
+        margin: 15px 0;
+    }
+
+    .ultimate-features .item p{
+        width: 100%;
+        text-align: left;
+    }    
+
+    .ultimate-features .right-content img {
+        width: 100%;
+        margin: 75px 0;
+    }
+
+    section.footer{
+        padding: 30px 80px;
+    }
+
+    section.footer .content{
+        margin: 50px 75px;
+        padding: 0;
+    } */
+}   
+
+/* @media  screen and (min-width:1024px) {
+    
+    .left-content{
+        width: 50%;
+    }
+
+    .editor-choice {
+        margin: 35px 0 6px;
+        text-align: center;
+    }
+
+    .hero h1{
+        width: 70%;
+        text-align: left;
+    }
+
+    .demo{
+        margin: 0 25px;
+    }
+
+    .hero img{
+        width: 30%;
+    }
+
+    .features .right-content{
+        width: 49%;
+    }
+
+    .features .left-content{
+        width: 49%;
+    }
+
+    .features .left-content img{
+        margin: 0;
+    }
+
+    .methods{
+        justify-content: center;
+    }
+
+    .item {
+        width: 30%;
+        align-items: end;
+        margin: 25px 0;
+    }
+
+    .latest-integration .left-content{
+        width: 49%;
+    }
+
+    .latest-integration .right-content{
+        width: 49%;
+        text-align: left;
+    }
+
+    .try{
+        width: 25%;
+    }
+
+    .choose-methods p{
+        width: 70%;
+    }
+
+    .ultimate-features .item {
+        width: 40%;
+        margin: 15px;
+    }
+
+    .See-button{
+        width: 30%;
+        margin: 30px 0 0 ;
+    }
+
+    .ultimate-features .right-content img{
+        margin: 0;
+    }
+
+    section.footer{
+        justify-content: center;
+    }
+
+}
+
+@media screen and (min-width:1366px) {
+    header{
+        flex-direction: row;
+        padding: 30px 20px;
+    }
+
+    .hero h1{
+        font-size: 30px;
+        width: 50%;
+    }
+
+    .app-features h3{
+        font-size: 30px;
+    }
+
+    .app-features p{
+        width: 60%;
+    }
+
+    .app-features ul li p{
+        width: 40%;
+    }
+
+    .features .left-content img{
+        width: 70%;
+    }
+
+    .latest-integration .right-content{
+        width: 45%;
+    }
+
+    .latest-integration h3{
+        font-size: 25px;
+        width: 45%;
+    }
+
+    .latest-integration .right-content p{
+        width: 70%;
+        margin: 15px 0;
+    }
+
+    .smart-jackport-left{
+        width: 35%;
+    }
+
+    .smart-jackport p{
+        width: 55%;
+    }
+
+    .content-head h3{
+        width: 25%;
+        font-size: 25px;
+    }
+
+    .choose-methods p{
+        width: 55%;
+    }
+
+    .ultimate-features .left-content{
+        margin: 15px;
+    }
+
+    .ultimate-features .left-content h3{
+        font-size: 25px;
+        width: 40%;
+        text-align: left;
+    }
+
+    .ultimate-features .left-content p{
+        width: 50%;
+    }
+
+    .ultimate-features .item{
+        width: 40%;
+        margin: 15px;
+    }
+
+    .ultimate-features .item h3{
+        font-size: 15px;
+        width: 70%;
+    }
+
+    .ultimate-features .item p{
+        width: 90%;
+    }
+
+    .ultimate-features .right-content{
+        width: 45%;
+    }
+
+} */
+
+
+
+
+
+
+
